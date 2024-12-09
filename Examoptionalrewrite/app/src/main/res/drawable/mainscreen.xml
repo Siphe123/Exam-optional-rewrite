@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+</selector>
+
+    <?xml version="1.0" encoding="utf-8"?>
+<resources>
+</resources>
+<activity android:name=".MainActivity" />
+<activity android:name=".DetailsActivity" />
+
+    <!-- Layout file for MainActivity (activity_main.xml) -->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/average_expenses_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Average Expenses"
+    android:textSize="18sp"
+    android:padding="16dp" />
+
+<Button
+    android:id="@+id/details_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="View Details" />
+</LinearLayout>
+
+    <!-- Layout file for DetailsActivity (activity_details.xml) -->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/details"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/details_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Details"
+    android:textSize="18sp"
+    android:padding="8dp" />
+
+<Button
+    android:id="@+id/back_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Back" />
+</LinearLayout>
+
+<DetailsActivity
+android:id="@+id/activity_details"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Average Expenses"
+android:textSize="18sp"
+android:padding="8dp" />
+
+<ImageView
+android:id="@+id/myImageView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/your_image_name" />
+
+<Button
+android:id="@+id/details_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="View Details" />

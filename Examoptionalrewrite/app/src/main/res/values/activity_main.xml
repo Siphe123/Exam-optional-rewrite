@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+</resources>
+    <!-- Layout file for MainActivity (activity_main.xml) -->
+
+    <!-- Layout file for DetailsActivity (activity_details.xml) -->
+
+<Button
+android:id="@+id/back_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Back" />
+
+<DetailsActivity
+android:id="@+id/activity_details"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Average Expenses"
+android:textSize="18sp"
+android:padding="8dp" />
+
+<ImageView
+android:id="@+id/myImageView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/your_image_name" />
+
+<Button
+android:id="@+id/details_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="View Details" />
+
+<Button
+android:id="@+id/details_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="View Details" />
+
+    <!-- Layout file for MainActivity (activity_main.xml) -->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/total_expenses_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Total Expenses"
+    android:textSize="18sp"
+    android:padding="8dp" />
+
+<TextView
+    android:id="@+id/average_expenses_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Average Expenses"
+    android:textSize="18sp"
+    android:padding="8dp" />
+
+<Button
+    android:id="@+id/details_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="View Details" />
+</LinearLayout>
+
+    <!-- Layout file for DetailsActivity (activity_details.xml) -->
+
+<TextView
+android:id="@+id/details_text"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Details"
+android:textSize="18sp"
+android:padding="8dp" />
+
+<Button
+android:id="@+id/back_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Back" />
+
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#2196F3"
+tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="NEXT"
+    tools:layout_editor_absoluteX="304dp"
+    tools:layout_editor_absoluteY="598dp" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="BACK"
+    tools:layout_editor_absoluteX="24dp"
+    tools:layout_editor_absoluteY="598dp" />
+
+<EditText
+    android:id="@+id/editTextText2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text"
+    android:text="Most money spent "
+    android:textSize="34sp"
+    tools:layout_editor_absoluteX="24dp"
+    tools:layout_editor_absoluteY="109dp" />
+
+<EditText
+    android:id="@+id/editTextText3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text"
+    android:text="Tuesday R212 spent"
+    android:textSize="24sp"
+    tools:layout_editor_absoluteX="33dp"
+    tools:layout_editor_absoluteY="213dp" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/budget_buddy_2"
+    tools:layout_editor_absoluteX="55dp"
+    tools:layout_editor_absoluteY="358dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
